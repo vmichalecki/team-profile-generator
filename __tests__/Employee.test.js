@@ -3,7 +3,7 @@ const Employee = require('./../lib/Employee');
 describe('Employee class', () => {
     const e = new Employee(1, 'Valerie Michalecki', 'valerie227@gmail.com');
 
-    it('Creates and employee object', () => {
+    it('Creates an employee object', () => {
         expect(typeof (e)).toBe('object');
     })
 
@@ -15,12 +15,12 @@ describe('Employee class', () => {
         expect(e.name).toBe('Valerie Michalecki');
     });
 
-    it('Has a email attribute', () => {
+    it('Has an email attribute', () => {
         expect(e.email).toBe('valerie227@gmail.com');
     });
 
-    it('Can get id via getId()', () => {
-        expect(e.getId()).toBe(1);
+    it('Can get ID via getId()', () => {
+        expect(e.getId()).toBe(1);``
     });
 
     it('Can get name via getName()', () => {
