@@ -43,7 +43,7 @@ const generateTeam = (team) => {
             <div class="p">
                 <div class="bdc-gray bdls-s bdrs-s bdts-s bdw-1 p-">ID: ${engineer.getId()}</div>
                 <div class="bdc-gray bdls-s bdrs-s bdts-s bdw-1 p-">Email: ${engineer.getEmail()}</div>
-                <div class="bdc-gray bdbs-s bdls-s bdrs-s bdts-s bdw-1 p-">GitHub: ${engineer.getGitHub()}</div>
+                <div class="bdc-gray bdbs-s bdls-s bdrs-s bdts-s bdw-1 p-">GitHub: <a href="https://github.com/${engineer.getGitHub()}">${engineer.getGitHub()}</a></div>
             </div>
         </div>`;
     };

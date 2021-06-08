@@ -31,12 +31,12 @@ function createManager() {
         {
             type: 'input',
             name: 'managerId',
-            message: 'What is the team manager\'s id?'
+            message: 'What is the team manager\'s ID?'
         },
         {
             type: 'input',
             name: 'managerEmail',
-            message: 'What is the team manager\'s email?'
+            message: 'What is the team manager\'s email address?'
         },
         {
             type: 'input',
@@ -65,12 +65,12 @@ function createEngineer() {
         {
             type: 'input',
             name: 'engineerId',
-            message: 'What is the engineer\'s id?'
+            message: 'What is the engineer\'s ID?'
         },
         {
             type: 'input',
             name: 'engineerEmail',
-            message: 'What is the engineer\'s email?'
+            message: 'What is the engineer\'s email address?'
         },
         {
             type: 'input',
