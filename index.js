@@ -147,11 +147,9 @@ function createTeam() {
 function buildTeam() {
     // create html file
     console.log(teamMembers);
-    // const htmlPageContent = generateHTML(teamMembers);
-    // createFile(htmlPageContent)
+    const htmlPageContent = generateHTML(teamMembers);
+    createFile(htmlPageContent);
 }
-
-createManager();
 
 function createFile(htmlCode) {
     if (!fs.existsSync(OUTPUT_DIR)) {
@@ -159,3 +157,5 @@ function createFile(htmlCode) {
     }
     fs.writeFileSync(outputPath, htmlCode, 'utf-8');
 }
+
+createManager();
