@@ -95,7 +95,7 @@ module.exports = (team) => {
     <header class="bgc-tomato c-white d-f fz-24 jc-c p">My Team</header>
 
     <!-- team cards -->
-    <section class="d-f jc-c mt+">
+    <section class="d-f fw-w jc-c mt+">
             ${generateTeam(team)}
     </section>
 </body>
