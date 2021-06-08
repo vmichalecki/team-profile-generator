@@ -68,9 +68,12 @@ html {
 /* ------------------------------------ *\
 	#FLEX
 \* ------------------------------------ */
-.ai-bl     { align-items: baseline; }
+.ai-bl    { align-items: baseline; }
 .d-f      { display: flex; }
+.f-1      { flex: 1; }
+/* .fxb-0    { flex-basis: 0; }
 .fxg-1    { flex-grow: 1; }
+.fxs-1    { flex-shrink: 1; } */
 .jc-c     { justify-content: center; }
 
 
