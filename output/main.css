@@ -5,7 +5,7 @@
     --spacing-unit-micro: 6px;
     --spacing-unit-tiny: 12px;
     --spacing-unit-small: 18px;
-    --spacing-unit: 24px;
+    --spacing-unit: 18px;
     --spacing-unit-medium: 48px;
 }
 
@@ -68,7 +68,7 @@ html {
 /* ------------------------------------ *\
 	#FLEX
 \* ------------------------------------ */
-.ai-c     { align-items: center; }
+.ai-bl     { align-items: baseline; }
 .d-f      { display: flex; }
 .fxg-1    { flex-grow: 1; }
 .jc-c     { justify-content: center; }
@@ -85,11 +85,11 @@ html {
 /* ------------------------------------ *\
 	#SPACING
 \* ------------------------------------ */
-.h-24    { height: var(--spacing-unit); }
+.h-18    { height: var(--spacing-unit); }
 .m       { margin: var(--spacing-unit); }
 .ml--    { margin-left: var(--spacing-unit-micro); }
 .mt--    { margin-top: var(--spacing-unit-micro); }
 .mt\+    { margin-top: var(--spacing-unit-medium); }
 .p       { padding: var(--spacing-unit); }
 .p-      { padding: var(--spacing-unit-tiny); }
-.w-24    { width: var(--spacing-unit); }
+.w-18    { width: var(--spacing-unit); }
