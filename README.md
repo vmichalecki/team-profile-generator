@@ -11,6 +11,7 @@ This command-line application generates a polished and responsive HTML file for 
 * [License](#License)
 * [Contributing](#Contributing)
 * [Tests](#Tests)
+* [Demo](#Demo)
 * [Questions](#Questions)
 
 ## Installation
@@ -26,7 +27,12 @@ MIT
 This is an open-source package that anyone can contribute to.
 
 ## Tests
-First, instal Jest with ```npm install --save-dev jest``` and then run ```npm run test``` in the command line to run all four tests at once, or ```npm run test [file name]``` for imdividual tests.
+First, install Jest with ```npm install --save-dev jest``` and then run ```npm run test``` in the command line to run all four tests at once, or ```npm run test [file name]``` for imdividual tests.
+
+## Demo
+Click [here](https://drive.google.com/file/d/1IKgS0tnAbtQQBIt7SorxURU5aXW6TQAr/view?usp=sharing) to view the demo.
 
 ## Questions
 For additional information please contact me via GitHub at [https://github.com/vmichalecki](https://github.com/vmichalecki) or via email at [valerie227@gmail.com](mailto:valerie227@gmail.com?subject=[GitHub]%Team%Profile%Generator).
+
+![Team Profile Generator Screenshot](./assets/team-profile-generator.png)
