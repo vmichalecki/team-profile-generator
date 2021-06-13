@@ -35,4 +35,4 @@ Click [here](https://drive.google.com/file/d/1IKgS0tnAbtQQBIt7SorxURU5aXW6TQAr/v
 ## Questions
 For additional information please contact me via GitHub at [https://github.com/vmichalecki](https://github.com/vmichalecki) or via email at [valerie227@gmail.com](mailto:valerie227@gmail.com?subject=[GitHub]%Team%Profile%Generator).
 
-![Team Profile Generator Screenshot](./assets/images/team-profile-generator.png)
+![Team Profile Generator Screenshot](./assets/team-profile-generator-screenshot.png)
